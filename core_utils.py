@@ -47,3 +47,22 @@ def process_document(file_path):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vector_store = Chroma.from_documents(docs, embeddings)
     return vector_store
+
+def chat_with_documents(query, vector_store, tokenizer, model):
+    """
+    Retrieves context from uploaded document vectors and generates an answer using the LLM.
+    """
+    if vector_store is None:
+        return "Please upload a document first to query its contents."
+
+    # Retrieve relevant document snippets
+    docs = vector_store.similarity_search(query, k=3)
+    context = "\n".join([doc.page_content for doc in docs])
+
+    prompt = f"Context:\n{context}\n\nQuestion: {query}\n\nAnswer:"
+    
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    outputs = model.generate(**inputs, max_new_tokens=256)
+    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+    return response.split("Answer:")[-1].strip()
