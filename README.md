@@ -1,6 +1,6 @@
 # Travelmate BD – Regional Tourism Chatbot
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/azmain-arnob/Regional-Travelmate-Chatbot/blob/main/colab_setup.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/azmain-arnob/Regional-Travelmate-Chatbot/blob/main/notebook.ipynb)
 
 Travelmate BD is an AI-driven regional tourism assistant built to help users plan trips across Bangladesh. The application integrates a multilingual conversational interface, an automated tour budget estimator, a document-based Q&A engine, and a real-time system performance monitor into a unified Gradio dashboard.
 
