@@ -26,3 +26,42 @@ Regional-Travelmate-Chatbot/
 ├── tour_budget.py           # Expense calculation logic
 ├── requirements.txt         # Project dependencies
 └── .env.example             # Environment variable template
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Google Colab (with T4 GPU runtime enabled)
+* Hugging Face Access Token
+
+### Installation & Execution
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/azmain-arnob/Regional-Travelmate-Chatbot.git
+   cd Regional-Travelmate-Chatbot
+   ```
+
+2. Configure environment variables:
+   Create a `.env` file in the root directory based on `.env.example`:
+   ```bash
+   HUGGINGFACE_TOKEN=your_actual_token_here
+   ```
+
+3. Install dependencies and run the application:
+   ```bash
+   python colab_setup.py
+   python app.py
+   ```
+
+---
+
+## Academic Context
+
+* **Course:** CSE 299 – Junior Design Project (Spring 2025, Section 19)
+* **Institution:** North South University
+* **Supervisor:** Dr. Shafin Rahman
+* **Team Members:** Azmain Iqtidar Arnob, Md Nayeem Porag Molla, Atikul Islam Nahid, Md Ashraful Islam
