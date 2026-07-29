@@ -1,14 +1,21 @@
-gradio
-python-dotenv
-PyPDF2
-python-docx
-sentence-transformers
-transformers
+# Core Machine Learning & Hugging Face
 torch
+transformers
 accelerate
-faiss-cpu
-numpy
-scipy
-psutil
+sentence-transformers
+
+# LangChain & Vector Store
 langchain
-scikit-learn
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+chromadb
+
+# Document Parsing
+pypdf
+docx2txt
+
+# UI & Utilities
+gradio
+psutil
+python-dotenv
