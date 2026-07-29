@@ -1,8 +1,26 @@
 # Travelmate BD – Regional Tourism Chatbot
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/azmain-arnob/Regional-Travelmate-Chatbot/blob/main/colab_setup.py)
+
 Travelmate BD is an AI-driven regional tourism assistant built to help users plan trips across Bangladesh. The application integrates a multilingual conversational interface, an automated tour budget estimator, a document-based Q&A engine, and a real-time system performance monitor into a unified Gradio dashboard.
 
 This project was developed for **CSE 299: Junior Design Project (Spring 2025)** at North South University under the supervision of **Dr. Shafin Rahman**.
+
+---
+
+## Application Preview
+
+![Chatbot Interface](assets/chatbot_interface.jpg)
+*Figure 1: Multilingual Tourism Assistant Interface.*
+
+![Budget Calculator](assets/budget_calculator.jpg)
+*Figure 2: Automated Tour Budget Calculator.*
+
+![Interactive Map](assets/interactive_map.jpg)
+*Figure 3: Interactive Regional Tourism Map.*
+
+![Performance Report](assets/performance_report.jpg)
+*Figure 4: Real-time System Performance Monitor.*
 
 ---
 
@@ -19,6 +37,11 @@ This project was developed for **CSE 299: Junior Design Project (Spring 2025)** 
 
 ```text
 Regional-Travelmate-Chatbot/
+├── assets/                  # Application UI screenshots
+│   ├── chatbot_interface.jpg
+│   ├── budget_calculator.jpg
+│   ├── interactive_map.jpg
+│   └── performance_report.jpg
 ├── app.py                   # Main Gradio application entry point
 ├── colab_setup.py           # Dependency installation script for Google Colab
 ├── core_utils.py            # Model loading & document processing modules
@@ -26,7 +49,6 @@ Regional-Travelmate-Chatbot/
 ├── tour_budget.py           # Expense calculation logic
 ├── requirements.txt         # Project dependencies
 └── .env.example             # Environment variable template
-```
 
 ---
 
