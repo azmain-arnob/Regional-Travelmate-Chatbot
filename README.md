@@ -10,16 +10,16 @@ This project was developed for **CSE 299: Junior Design Project (Spring 2025)** 
 
 ## Application Preview
 
-![Chatbot Interface](assets/chatbot_interface.jpg)
+![Chatbot Interface](assets/chatbot_interface.png.jpg)
 *Figure 1: Multilingual Tourism Assistant Interface.*
 
-![Budget Calculator](assets/budget_calculator.jpg)
+![Budget Calculator](assets/budget_calculator.png.jpg)
 *Figure 2: Automated Tour Budget Calculator.*
 
-![Interactive Map](assets/interactive_map.jpg)
+![Interactive Map](assets/interactive_map.png.jpg)
 *Figure 3: Interactive Regional Tourism Map.*
 
-![Performance Report](assets/performance_report.jpg)
+![Performance Report](assets/performance_report.png.jpg)
 *Figure 4: Real-time System Performance Monitor.*
 
 ---
